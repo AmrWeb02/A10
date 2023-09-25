@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;}
+body{
+    background: linear-gradient(#7A2048,70%, #9198e5);
+    height: 100vh;
+}
+fieldset{
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left:1em;
+    padding-right:1em;
+    border: 5px solid rgb(81 205 0);
+    border-radius:0.5em;
+}
+legend{
+    font-size: 60px;
+    color:blue;
+    font-weight: bold;
+    text-align: right;
+    border: 5px dashed rgb(81 205 0);
+    padding: 0.2em;
+    border-radius: 5em;
+}
+#quotes{
+    color:white;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+}
+#textContainer{
+    margin-left: 3em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.dataContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#textBox{
+    resize: none;
+    width: 70%;
+    min-height: 200px;
+    background-color: black;
+    padding: 1em;
+    color: white;
+    letter-spacing: 0.08em;
+}
+.data{
+    color:white;
+    font-size: 45px;
+}
+#againBtn{
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+    font-weight: bold;
+    color:blue;
+}
+#againBtn:hover{
+    cursor: pointer;
+    background-color: blue;
+    color:white;
+}
+.correct{
+    color:green;
+}
+.wrong{
+    color:red;
+}
